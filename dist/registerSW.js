@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/puntero-5-preview/sw.js', { scope: '/puntero-5-preview/' })})}
